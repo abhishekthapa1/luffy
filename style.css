@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width:300px;
+    height:400px;
+    background-color: #c2c7c5;
+    margin: 90px 0px 0px 500px;
+    justify-content: center;
+    float:center;
+    border-radius:7px;
+    border-top:6px solid #9ba09e;
+    border-right:6px solid #9ba09e;
+    border-bottom:1px solid #9ba09e;
+    border-left:1px solid #9ba09e;
+    overflow:hidden ;
+}
+#want{
+   position:relative;
+   width:100%;
+   left:60px;
+    font: 40px solid black;
+    text-align:center;
+    font-weight: bold;
+   
+    
+}
+#img{
+    position: relative;
+    top: 10px;
+    left:45px;
+    border-radius:50% ;
+    width :200px;
+    height:200px;
+    border:5px rgb(15, 15, 15);
+    justify-content: center;
+    background:url(download.jpg) center;
+    justify-content: center;
+    transition: width 2s;
+    padding-bottom: 10px;;
+}
+#text{
+    
+    padding:05px;
+    margin-left:-30px;
+    text-transform: uppercase;
+    text-align:center;
+    font-family: Impact, Courier New, monospace;
+    font: 40px;
+    
+    
+
+
+}
+ul{
+    list-style-type: none;
+}
+#larger{
+    margin-left:-30px;
+    font-size:30px;
+    font-weight :bolder;
+}
+#berry{
+    position: relative;
+    top: 05px;
+    left:-30px;
+    border-radius:50% ;
+    width :50px;
+    height:50px;
+    background:url("berry.jpg ") center ;
+    margin-right:10px;
+}
+#texts{
+    position: relative;
+    top: 05px;
+    left:60px;
+    text-align:center;
+    
+    font: 30px bold solid black;
+    font-weight :bolder;
+}
+#img:hover{
+    
+    width:210px;
+    height:210px;
+}
